@@ -70,8 +70,8 @@ export const Chat: FC<Props> = ({ conversation, models, apiKey, messageIsStreami
           {/* <div className="text-1xl font-semibold text-center text-gray-400">Hi,我是程序员饭哥,爱好互联网、编程、AI领域，做过后端、前端，写过C/C++、Java、Android、PHP，现在做前端领域。</div> */}
           {/* <div className="text-1xl font-semibold text-center text-gray-800 dark:text-gray-100">在这里都能找到我的痕迹，我的公众号-前端技术江湖、<a target="_blank" href="http://bigerfe.com">大前端面试刷题网</a>、<a href="https://github.com/Bigerfe/koa-react-ssr" target="_blank">React SSR开发框架</a>、gpt小程序版：小饭talk（近期上线） </div> */}
           {/* <div className="text-1xl font-semibold text-center text-gray-400">站长说：本站提供免费gpt对话服务，让关注我的朋友用上正宗的gpt。</div> */}
-          <div className="text-2xl font-semibold text-center text-gray-800 dark:text-gray-100">gpt中文版，无需翻墙，即可使用！ </div>
-          <div className="text-2xl font-semibold text-center text-gray-800 dark:text-gray-100">需要设置卡密才能对话，共享卡密可体验5次。 <a style={{color:'green', textDecoration:'underline'}} href="https://mp.weixin.qq.com/s/jAuF5D9eQ75bsIBqQa8k0Q">卡密设置教程</a> </div>
+          <div className="text-2xl font-semibold text-center text-gray-800 dark:text-gray-100">gpt中文版，无需魔法，即可使用！ </div>
+          <div className="text-2xl font-semibold text-center text-gray-800 dark:text-gray-100">需设置卡密才能对话，共享卡密可体验5次,卡密：zp-guest3BlbkFJh09090。 <a style={{color:'green', textDecoration:'underline'}} href="https://mmbiz.qpic.cn/mmbiz_png/OhepwYCSDicgkOGWyMGq9sDhpXlO66Vmiat4fTJc2Wmx1bskhvLMicribO34VxfFV1KAMyJowBJwpvWqUianRUIoQ8g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1">卡密设置教程</a> </div>
           <div className="text-2xl font-semibold text-center text-gray-800 dark:text-gray-100">正式卡密：9.9/月 对话无限制，手机、电脑都能用。 如果没有卡密，请联系作者购买 。 </div>
           <div className="text-center text-gray-500 dark:text-gray-800 dark:text-gray-100"></div>
           {/* <div className="text-center text-gray-500 dark:text-gray-400">也可以进入作者的知识星球『玩转chatGPT和AI绘画』，目前加入星球可赠送独立账号1个+KEY+N个共享账号，<a style={{color:'#fff'}} target="_blank" href="https://t.zsxq.com/0cl2u1Qem">点我打开介绍~</a></div> */}
