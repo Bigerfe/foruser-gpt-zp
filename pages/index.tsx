@@ -18,7 +18,7 @@ function getSign(messages: Array<any>, time: string) {
   return clientMd5(`${time}${msg.content}${time}${PubSignKey}`);
 }
 const CountKey = 'test12345';
-const GuestKey = 'gk-guest3BlbkFJh';
+const GuestKey = 'zp-guest3BlbkFJh09090';
 const CanSendCount = 5; //可以体验15条
 export default function Home() {
   const [conversations, setConversations] = useState<Conversation[]>([]);
@@ -67,7 +67,7 @@ export default function Home() {
     }
     if(apiKey === GuestKey){
       if(!canSend()){
-        alert(`您的${CanSendCount}次体验已用完！去公众号回复"卡密"，领取正式卡密！卡密每7天重置一次，到时可重新领取！`);
+        alert(`您的${CanSendCount}次体验已用完！加作者微信 223344386 购买正式卡密，9.9/1个月随便用！`);
         return false;
       }
     }
